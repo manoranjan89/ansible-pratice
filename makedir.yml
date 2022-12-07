@@ -1,0 +1,11 @@
+--- 
+  - name: creating directory
+    hosts: all
+    become: true
+    tasks: 
+      - name: directory created
+        file: 
+          path: ~/dev/abc.txt
+          state: file
+          mode: '0755'
+          

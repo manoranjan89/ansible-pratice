@@ -1,1 +1,1 @@
-# ansible-praticeNasible for automation
+# Ansible for automation
